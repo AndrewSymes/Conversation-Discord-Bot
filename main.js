@@ -1,14 +1,14 @@
 const Discord = require("discord.js");
 const bot = new Discord.Client();
-const token = "NjcxNTU4OTU1OTAxOTExMDQ0.XmGToA.RvV5RLBNFng1yKzC2ndqKxOtwEI";
+const token = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
 bot.login(token);
 mainServer = null;
 silinceTime = 0;
 
 bot.on("ready", () => {
     console.log(bot.user.username + " is ready")
-    mainServer = bot.guilds.get('481866166080634880');
-    mainChannel = mainServer.channels.get('481866166529294337');
+    mainServer = bot.guilds.get('xxxxxxxxxxxxxxxxxx');
+    mainChannel = mainServer.channels.get('xxxxxxxxxxxxxxxxxx');
 })
 
 bot.on("message", msg => {
